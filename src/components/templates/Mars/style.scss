@@ -1,0 +1,57 @@
+.loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.carosel_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+        width: 70%;
+    }
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+.carousel {
+    img {
+        max-height: 1000px;
+    }
+}
+
+.list-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel__item {
+    width: 100%;
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.carousel__slide {
+    padding: 10px;
+}
+  
+.carousel__prev,
+.carousel__next {
+    box-sizing: content-box;
+}

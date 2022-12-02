@@ -1,0 +1,40 @@
+.container-photo-day {
+    .app-title {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    &__content {
+        margin-top: 2rem;
+        .subtitle {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+
+
+    &__info {
+        margin-top: 2rem;
+        display: flex;
+
+        .date {
+            margin-top: 2rem;
+        }
+
+        a {
+            display: contents;
+        }
+        &__img {
+            margin-right: 1rem;
+            width: 850px;
+            // width: 65%;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: justify;
+        }
+    }
+
+}
+
